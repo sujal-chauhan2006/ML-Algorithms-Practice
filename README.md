@@ -29,6 +29,29 @@ Predict student placement packages using CGPA as the input feature.
 
 ---
 
+### 02. Simple Linear Regression From Scratch
+
+**Objective:**
+Build a Simple Linear Regression algorithm from scratch without using Scikit-Learn's LinearRegression class.
+
+### Topics Covered
+
+* Mathematics Behind Linear Regression
+* Custom Linear Regression Class
+* Calculation of Slope (m)
+* Calculation of Intercept (b)
+* Model Training from Scratch
+* Prediction Using Custom Model
+* Placement Dataset Analysis
+* Regression Line Visualization
+
+### Learning Highlights
+
+* Understanding how Linear Regression works internally
+* Implementing the algorithm step-by-step
+* Comparing theory with practical implementation
+* Strengthening machine learning fundamentals
+
 ## 🛠️ Technologies Used
 
 * Python
