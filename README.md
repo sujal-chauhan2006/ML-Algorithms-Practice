@@ -52,6 +52,36 @@ Build a Simple Linear Regression algorithm from scratch without using Scikit-Lea
 * Comparing theory with practical implementation
 * Strengthening machine learning fundamentals
 
+---
+
+### 03. Multiple Linear Regression Basics
+
+**Objective:**
+Understand and implement Multiple Linear Regression using multiple input features to predict a continuous target variable.
+
+### Topics Covered
+
+* Multiple Linear Regression
+* Synthetic Dataset Generation using `make_regression`
+* Data Preparation with Pandas
+* 3D Data Visualization using Plotly
+* Train-Test Split
+* Model Training with Scikit-Learn
+* Prediction on Test Data
+* Model Evaluation (MAE, MSE, R² Score)
+* Understanding Coefficients and Intercept
+
+### Learning Highlights
+
+* Understanding the difference between Simple and Multiple Linear Regression
+* Working with multiple independent variables
+* Visualizing data in three dimensions
+* Interpreting model coefficients
+* Evaluating regression model performance
+* Building a complete Multiple Linear Regression workflow
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python
