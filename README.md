@@ -81,7 +81,33 @@ Understand and implement Multiple Linear Regression using multiple input feature
 * Building a complete Multiple Linear Regression workflow
 
 ---
+### 03. Multiple Linear Regression From Scratch
 
+**Objective:**
+Build a Multiple Linear Regression algorithm from scratch without using Scikit-Learn's LinearRegression class.
+
+### Topics Covered
+
+* Multiple Linear Regression
+* Mathematics Behind Multiple Linear Regression
+* Custom Multiple Linear Regression Class
+* Matrix Representation of Data
+* Coefficient Calculation Using Normal Equation
+* Model Training from Scratch
+* Prediction Using Custom Model
+* Synthetic Dataset Generation using `make_regression`
+* Model Evaluation (MAE, MSE, R² Score)
+
+### Learning Highlights
+
+* Understanding how Multiple Linear Regression works internally
+* Implementing the algorithm without relying on built-in models
+* Working with multiple input features
+* Learning matrix-based computation in machine learning
+* Evaluating regression model performance
+* Strengthening machine learning fundamentals through hands-on implementation
+
+  
 ## 🛠️ Technologies Used
 
 * Python
