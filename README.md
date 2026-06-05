@@ -4,20 +4,20 @@
 
 This repository contains hands-on implementations of Machine Learning algorithms using Python and Scikit-Learn.
 
-Currently, the repository includes an implementation of **Simple Linear Regression** to predict placement packages based on student CGPA.
+The goal of this repository is to learn machine learning concepts from both practical and mathematical perspectives by implementing algorithms using libraries as well as from scratch.
 
-The notebook covers the complete machine learning workflow, including data preparation, model training, prediction, evaluation, and visualization.
+Each notebook focuses on understanding the theory, implementation, evaluation, and visualization of machine learning models.
 
 ---
 
-## 📚 Current Notebook
+## 📚 Notebooks Included
 
 ### 01. Simple Linear Regression – Placement Prediction
 
 **Objective:**
 Predict student placement packages using CGPA as the input feature.
 
-### Topics Covered
+#### Topics Covered
 
 * Simple Linear Regression
 * Data Preparation
@@ -34,7 +34,7 @@ Predict student placement packages using CGPA as the input feature.
 **Objective:**
 Build a Simple Linear Regression algorithm from scratch without using Scikit-Learn's LinearRegression class.
 
-### Topics Covered
+#### Topics Covered
 
 * Mathematics Behind Linear Regression
 * Custom Linear Regression Class
@@ -45,7 +45,7 @@ Build a Simple Linear Regression algorithm from scratch without using Scikit-Lea
 * Placement Dataset Analysis
 * Regression Line Visualization
 
-### Learning Highlights
+#### Learning Highlights
 
 * Understanding how Linear Regression works internally
 * Implementing the algorithm step-by-step
@@ -59,7 +59,7 @@ Build a Simple Linear Regression algorithm from scratch without using Scikit-Lea
 **Objective:**
 Understand and implement Multiple Linear Regression using multiple input features to predict a continuous target variable.
 
-### Topics Covered
+#### Topics Covered
 
 * Multiple Linear Regression
 * Synthetic Dataset Generation using `make_regression`
@@ -71,7 +71,7 @@ Understand and implement Multiple Linear Regression using multiple input feature
 * Model Evaluation (MAE, MSE, R² Score)
 * Understanding Coefficients and Intercept
 
-### Learning Highlights
+#### Learning Highlights
 
 * Understanding the difference between Simple and Multiple Linear Regression
 * Working with multiple independent variables
@@ -81,12 +81,13 @@ Understand and implement Multiple Linear Regression using multiple input feature
 * Building a complete Multiple Linear Regression workflow
 
 ---
-### 03. Multiple Linear Regression From Scratch
+
+### 04. Multiple Linear Regression From Scratch
 
 **Objective:**
 Build a Multiple Linear Regression algorithm from scratch without using Scikit-Learn's LinearRegression class.
 
-### Topics Covered
+#### Topics Covered
 
 * Multiple Linear Regression
 * Mathematics Behind Multiple Linear Regression
@@ -98,7 +99,7 @@ Build a Multiple Linear Regression algorithm from scratch without using Scikit-L
 * Synthetic Dataset Generation using `make_regression`
 * Model Evaluation (MAE, MSE, R² Score)
 
-### Learning Highlights
+#### Learning Highlights
 
 * Understanding how Multiple Linear Regression works internally
 * Implementing the algorithm without relying on built-in models
@@ -107,40 +108,71 @@ Build a Multiple Linear Regression algorithm from scratch without using Scikit-L
 * Evaluating regression model performance
 * Strengthening machine learning fundamentals through hands-on implementation
 
-  
+---
+
+### 05. Model Evaluation and Metrics
+
+**Objective:**
+Understand how to evaluate machine learning regression models using various performance metrics.
+
+#### Topics Covered
+
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+* Adjusted R² Score
+* Model Performance Comparison
+* Error Interpretation
+* Regression Evaluation Techniques
+
+#### Learning Highlights
+
+* Understanding the strengths and limitations of different evaluation metrics
+* Comparing model performance using multiple metrics
+* Interpreting prediction errors effectively
+* Learning when to use each evaluation metric
+* Building confidence in model assessment and validation
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python
 * NumPy
 * Pandas
 * Matplotlib
+* Plotly
 * Scikit-Learn
-* Jupyter Notebook
+* Google Colab
 
 ---
 
-## 📊 Workflow
+## 🎯 Learning Outcomes
 
-1. Load the placement dataset
-2. Select CGPA as the independent variable
-3. Split data into training and testing sets
-4. Train the Linear Regression model
-5. Generate predictions
-6. Evaluate model performance using R² Score
-7. Visualize the regression line
+Through these notebooks, you will learn:
 
----
-
-## 🎯 Learning Outcome
-
-This project demonstrates the fundamentals of supervised machine learning and provides practical experience with building and evaluating a Simple Linear Regression model.
+* Fundamentals of Machine Learning
+* Linear Regression Algorithms
+* Model Implementation from Scratch
+* Matrix-Based Computation
+* Model Evaluation Techniques
+* Performance Metrics Interpretation
+* Data Visualization
+* Practical Machine Learning Workflow
 
 ---
 
 ## 🚀 Repository Status
 
-Current Progress:
+### Completed
 
 * ✅ Simple Linear Regression – Placement Prediction
+* ✅ Simple Linear Regression From Scratch
+* ✅ Multiple Linear Regression Basics
+* ✅ Multiple Linear Regression From Scratch
+* ✅ Model Evaluation and Metrics
 
-More machine learning algorithms will be added as part of the learning journey.
+---
+
+⭐ This repository documents my journey of learning Machine Learning through hands-on coding, mathematical intuition, and practical implementation.
