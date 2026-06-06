@@ -126,6 +126,7 @@ Understand how to evaluate machine learning regression models using various perf
 * Error Interpretation
 * Regression Evaluation Techniques
 
+
 #### Learning Highlights
 
 * Understanding the strengths and limitations of different evaluation metrics
@@ -135,6 +136,36 @@ Understand how to evaluate machine learning regression models using various perf
 * Building confidence in model assessment and validation
 
 ---
+
+### 06. Linear Regression Assumptions Checking
+
+**Objective:**
+Understand and validate the key assumptions of Linear Regression to ensure that the model produces reliable and interpretable results.
+
+#### Topics Covered
+
+* Linear Relationship
+* Multicollinearity
+* Normal Distribution of Residuals
+* Homoscedasticity
+* No Autocorrelation of Errors
+* Residual Analysis
+* Correlation Matrix
+* Variance Inflation Factor (VIF)
+* Q-Q Plot
+* Residual vs Predicted Values Plot
+* Durbin-Watson Test
+
+#### Learning Highlights
+
+* Understanding why assumptions are important in Linear Regression
+* Identifying violations of model assumptions
+* Performing residual diagnostics
+* Detecting multicollinearity among features
+* Evaluating normality of residuals
+* Checking constant variance of errors
+* Understanding autocorrelation and its impact on model performance
+* Building confidence in model validation and interpretation
 
 ## 🛠️ Technologies Used
 
@@ -160,6 +191,11 @@ Through these notebooks, you will learn:
 * Performance Metrics Interpretation
 * Data Visualization
 * Practical Machine Learning Workflow
+* Model Diagnostics
+* Assumption Validation Techniques
+* Residual Analysis
+* Feature Relationship Analysis
+* Statistical Validation of Regression Models
 
 ---
 
@@ -172,6 +208,8 @@ Through these notebooks, you will learn:
 * ✅ Multiple Linear Regression Basics
 * ✅ Multiple Linear Regression From Scratch
 * ✅ Model Evaluation and Metrics
+* ✅ Linear Regression Assumptions Checking
+
 
 ---
 
