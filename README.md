@@ -167,6 +167,32 @@ Understand and validate the key assumptions of Linear Regression to ensure that 
 * Understanding autocorrelation and its impact on model performance
 * Building confidence in model validation and interpretation
 
+### 07. Gradient Descent with Fixed Slope (m)
+
+**Objective:**
+Understand the core concept of Gradient Descent by keeping the slope (m) fixed and optimizing only the intercept (b) in a Linear Regression model.
+
+#### Topics Covered
+
+* Introduction to Gradient Descent
+* Cost Function Minimization
+* Gradient Calculation
+* Learning Rate
+* Epochs and Iterative Optimization
+* Intercept (b) Optimization
+* Fixed Slope (m) Regression
+* Regression Line Visualization
+* Parameter Updates Using Gradient Descent
+
+#### Learning Highlights
+
+* Understanding the intuition behind Gradient Descent
+* Learning how machine learning models minimize prediction error
+* Visualizing the movement of the regression line during training
+* Understanding the role of learning rate in optimization
+* Building a strong foundation for Logistic Regression and Neural Networks
+* Understanding parameter optimization before implementing full Gradient Descent
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -196,6 +222,10 @@ Through these notebooks, you will learn:
 * Residual Analysis
 * Feature Relationship Analysis
 * Statistical Validation of Regression Models
+* Gradient Descent Optimization
+* Learning Rate Tuning
+* Cost Function Minimization
+* Parameter Optimization Techniques
 
 ---
 
@@ -209,6 +239,7 @@ Through these notebooks, you will learn:
 * ✅ Multiple Linear Regression From Scratch
 * ✅ Model Evaluation and Metrics
 * ✅ Linear Regression Assumptions Checking
+* ✅ Gradient Descent with Fixed Slope (m)
 
 
 ---
