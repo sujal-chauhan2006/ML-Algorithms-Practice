@@ -193,6 +193,36 @@ Understand the core concept of Gradient Descent by keeping the slope (m) fixed a
 * Building a strong foundation for Logistic Regression and Neural Networks
 * Understanding parameter optimization before implementing full Gradient Descent
 
+### 08. Linear Regression From Scratch Using Gradient Descent
+
+**Objective:**
+Implement a complete Linear Regression algorithm from scratch using Gradient Descent by optimizing both the slope (m) and intercept (b) iteratively without relying on Scikit-Learn's LinearRegression class.
+
+#### Topics Covered
+
+* Linear Regression Fundamentals
+* Cost Function (Mean Squared Error)
+* Gradient Descent Optimization
+* Learning Rate and Epochs
+* Gradient Calculation for Slope (m)
+* Gradient Calculation for Intercept (b)
+* Parameter Updates Using Gradient Descent
+* Custom Linear Regression Class
+* Model Training from Scratch
+* Prediction Using Custom Model
+* Regression Line Visualization
+* Model Evaluation Using R² Score
+
+#### Learning Highlights
+
+* Understanding how Gradient Descent trains a Linear Regression model
+* Learning the mathematics behind parameter optimization
+* Implementing iterative optimization from scratch
+* Understanding the effect of learning rate and epochs on convergence
+* Building intuition for machine learning optimization algorithms
+* Comparing analytical solutions with iterative learning methods
+* Strengthening machine learning fundamentals through hands-on implementation
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -240,6 +270,7 @@ Through these notebooks, you will learn:
 * ✅ Model Evaluation and Metrics
 * ✅ Linear Regression Assumptions Checking
 * ✅ Gradient Descent with Fixed Slope (m)
+* ✅ Linear Regression From Scratch Using Gradient Descent
 
 
 ---
