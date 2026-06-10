@@ -223,6 +223,58 @@ Implement a complete Linear Regression algorithm from scratch using Gradient Des
 * Comparing analytical solutions with iterative learning methods
 * Strengthening machine learning fundamentals through hands-on implementation
 
+### 09. Batch Gradient Descent
+
+**Objective:**
+Understand and implement Batch Gradient Descent for Linear Regression by updating model parameters using the entire training dataset in each iteration.
+
+#### Topics Covered
+
+* Batch Gradient Descent
+* Cost Function Minimization
+* Gradient Calculation
+* Learning Rate
+* Epochs and Iterative Optimization
+* Simultaneous Optimization of Slope and Intercept
+* Parameter Updates Using Full Dataset
+* Regression Line Visualization
+* Convergence Analysis
+
+#### Learning Highlights
+
+* Understanding how Batch Gradient Descent works internally
+* Learning parameter optimization using the complete dataset
+* Understanding the relationship between gradients and error minimization
+* Visualizing model convergence during training
+* Building a strong foundation for advanced optimization techniques
+* Understanding the advantages and limitations of Batch Gradient Descent
+
+### 10. Stochastic Gradient Descent
+
+**Objective:**
+Understand and implement Stochastic Gradient Descent (SGD) for Linear Regression by updating model parameters using one training example at a time.
+
+#### Topics Covered
+
+* Stochastic Gradient Descent (SGD)
+* Cost Function Minimization
+* Learning Rate
+* Epochs and Iterative Optimization
+* Random Sample Selection
+* Gradient Calculation for Individual Samples
+* Parameter Updates Using Single Data Points
+* Convergence Behavior
+* Performance Comparison with Batch Gradient Descent
+
+#### Learning Highlights
+
+* Understanding how SGD differs from Batch Gradient Descent
+* Learning faster optimization techniques for large datasets
+* Understanding noisy gradient updates and convergence
+* Implementing SGD from scratch
+* Comparing optimization strategies in Machine Learning
+* Building intuition for optimization algorithms used in Deep Learning frameworks
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -256,6 +308,11 @@ Through these notebooks, you will learn:
 * Learning Rate Tuning
 * Cost Function Minimization
 * Parameter Optimization Techniques
+* Batch Gradient Descent
+* Stochastic Gradient Descent
+* Optimization Algorithms
+* Convergence Analysis
+* Gradient-Based Learning
 
 ---
 
@@ -271,7 +328,8 @@ Through these notebooks, you will learn:
 * ✅ Linear Regression Assumptions Checking
 * ✅ Gradient Descent with Fixed Slope (m)
 * ✅ Linear Regression From Scratch Using Gradient Descent
-
+* ✅ Batch Gradient Descent
+* ✅ Stochastic Gradient Descent
 
 ---
 
