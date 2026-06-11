@@ -275,6 +275,35 @@ Understand and implement Stochastic Gradient Descent (SGD) for Linear Regression
 * Comparing optimization strategies in Machine Learning
 * Building intuition for optimization algorithms used in Deep Learning frameworks
 
+### 11. Mini-Batch Gradient Descent
+
+**Objective:**
+Understand and implement Mini-Batch Gradient Descent (MBGD) for Linear Regression by updating model parameters using small batches of training examples instead of the entire dataset or a single sample.
+
+#### Topics Covered
+
+* Mini-Batch Gradient Descent (MBGD)
+* Cost Function Minimization
+* Learning Rate
+* Epochs and Iterative Optimization
+* Batch Size Selection
+* Random Mini-Batch Creation
+* Gradient Calculation for Mini-Batches
+* Parameter Updates Using Mini-Batches
+* Convergence Analysis
+* Performance Comparison with Batch Gradient Descent and Stochastic Gradient Descent
+* Model Evaluation Using R² Score
+
+#### Learning Highlights
+
+* Understanding the balance between Batch Gradient Descent and Stochastic Gradient Descent
+* Learning efficient optimization techniques for medium and large datasets
+* Understanding the impact of batch size on model training
+* Implementing Mini-Batch Gradient Descent from scratch
+* Comparing optimization strategies in Machine Learning
+* Understanding why Mini-Batch Gradient Descent is widely used in Deep Learning
+* Building intuition for modern optimization algorithms
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -313,6 +342,11 @@ Through these notebooks, you will learn:
 * Optimization Algorithms
 * Convergence Analysis
 * Gradient-Based Learning
+* Mini-Batch Gradient Descent
+* Batch Size Optimization
+* Efficient Model Training
+* Optimization Strategy Comparison
+* Deep Learning Optimization Fundamentals
 
 ---
 
@@ -330,6 +364,7 @@ Through these notebooks, you will learn:
 * ✅ Linear Regression From Scratch Using Gradient Descent
 * ✅ Batch Gradient Descent
 * ✅ Stochastic Gradient Descent
+* ✅ Mini-Batch Gradient Descent
 
 ---
 
