@@ -304,6 +304,35 @@ Understand and implement Mini-Batch Gradient Descent (MBGD) for Linear Regressio
 * Understanding why Mini-Batch Gradient Descent is widely used in Deep Learning
 * Building intuition for modern optimization algorithms
 
+### 12. Polynomial Regression
+
+**Objective:**
+Understand and implement Polynomial Regression to model non-linear relationships between input features and the target variable by transforming features into higher-degree polynomial terms.
+
+#### Topics Covered
+
+* Polynomial Regression
+* Non-Linear Relationships
+* Feature Engineering with Polynomial Features
+* PolynomialFeatures from Scikit-Learn
+* Model Training and Prediction
+* Degree Selection
+* Underfitting and Overfitting
+* Regression Curve Visualization
+* Model Evaluation (MAE, MSE, R² Score)
+* Comparison with Linear Regression
+
+#### Learning Highlights
+
+* Understanding when Linear Regression is insufficient
+* Learning how Polynomial Regression captures non-linear patterns
+* Transforming features into polynomial terms
+* Visualizing curved regression relationships
+* Understanding the impact of polynomial degree on model performance
+* Comparing Linear and Polynomial Regression models
+* Understanding the bias-variance tradeoff
+* Strengthening regression modeling skills through practical implementation
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -347,6 +376,12 @@ Through these notebooks, you will learn:
 * Efficient Model Training
 * Optimization Strategy Comparison
 * Deep Learning Optimization Fundamentals
+* Polynomial Regression
+* Non-Linear Regression Modeling
+* Polynomial Feature Engineering
+* Bias-Variance Tradeoff
+* Underfitting and Overfitting Analysis
+* Model Complexity Control
 
 ---
 
@@ -365,6 +400,8 @@ Through these notebooks, you will learn:
 * ✅ Batch Gradient Descent
 * ✅ Stochastic Gradient Descent
 * ✅ Mini-Batch Gradient Descent
+* ✅ Polynomial Regression
+
 
 ---
 
