@@ -6,7 +6,7 @@ This notebook contains my implementation and experimentation with Ridge Regressi
 
 The goal of this notebook is to understand how Ridge Regression works mathematically, how L2 regularization affects model coefficients, and how to implement the algorithm without relying entirely on machine learning libraries.
 
----
+--
 
 ## 🎯 Objectives
 
@@ -21,122 +21,80 @@ The goal of this notebook is to understand how Ridge Regression works mathematic
 
 ## 📚 Topics Covered
 
-### 1. Ridge Regression Basics
+# Ridge Regression from Scratch
 
-* Linear Regression Review
-* Overfitting Problem
-* Introduction to Regularization
-* L2 Penalty Term
-* Alpha (λ) Parameter
+## Overview
 
-### 2. Ridge Regression Using Scikit-Learn
+This notebook demonstrates the implementation of Ridge Regression from scratch using NumPy. The goal is to understand the mathematical foundations of L2 regularization, coefficient shrinkage, and how Ridge Regression helps reduce overfitting in linear models.
 
-* Training Ridge Models
-* Model Prediction
-* Coefficient Analysis
-* Different Alpha Values
+## Topics Covered
 
-### 3. Ridge Regression From Scratch
-
-* Creating Custom `MeraRidge` Class
-* Implementing `fit()` Method
-* Implementing `predict()` Method
-* Matrix Algebra Operations
-* Identity Matrix Construction
-* Ridge Normal Equation Implementation
-
-### 4. Multi-Dimensional Ridge Regression
-
-* Working with Multiple Features
-* Feature Matrix Transformation
-* Coefficient Extraction
-* Intercept Calculation
-
-### 5. Model Comparison
-
-* Scikit-Learn Ridge Regression
-* Custom Ridge Regression
-* Prediction Comparison
-* Coefficient Comparison
-
-### 6. Visualization
-
-* Regression Curve Plotting
-* Effect of Alpha on Predictions
-* Comparing Different Regularization Strengths
+- Linear Regression Fundamentals
+- Overfitting and Regularization
+- L2 Regularization (Ridge Regression)
+- Ridge Normal Equation
+- Custom Ridge Regression Class
+- Single and Multi-Feature Regression
+- Model Evaluation and Comparison
 
 ---
 
-## 🛠️ Technologies Used
+# Ridge Regression using Gradient Descent
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-Learn
+## Overview
 
----
+This notebook explores Ridge Regression using both Scikit-Learn and a custom implementation built from scratch with NumPy and Gradient Descent. The objective is to understand how L2 regularization works, how Gradient Descent updates model parameters, and how regularization affects model performance.
 
-## ⚙️ Implementation Highlights
+## Topics Covered
 
-### Custom Ridge Regression Class
+- Ridge Regression and L2 Regularization
+- Cost Function with L2 Penalty
+- Gradient Descent Optimization
+- Ridge Regression using Scikit-Learn
+- Custom Ridge Regression Implementation
+- Effect of Alpha (λ) and Learning Rate
+- Model Comparison and Visualization
 
-Implemented a custom Ridge Regression class featuring:
+## Technologies Used
 
-* Configurable alpha parameter
-* Manual coefficient calculation
-* Manual intercept calculation
-* Matrix inversion using NumPy
-* Prediction functionality
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-Learn
 
-### Mathematical Implementation
+## Implementation
 
-Implemented Ridge Regression using the closed-form solution:
+A custom Ridge Regression model was implemented from scratch featuring:
 
-β = (XᵀX + λI)⁻¹Xᵀy
+- Gradient Descent optimization
+- Manual weight and bias updates
+- L2 Regularization
+- Prediction functionality
+- Configurable learning rate and iterations
 
-where:
+## Experiments
 
-* X = Feature Matrix
-* y = Target Variable
-* λ = Regularization Strength
-* I = Identity Matrix
+- Different alpha values
+- Different learning rates
+- Linear Regression vs Ridge Regression
+- Coefficient shrinkage analysis
+- Prediction comparison and visualization
 
----
+## Key Learnings
 
-## 📊 Experiments Performed
+- Ridge Regression reduces overfitting through L2 regularization.
+- Gradient Descent iteratively minimizes the cost function.
+- Higher alpha values increase regularization strength.
+- Regularization helps control coefficient magnitude and improve generalization.
+- Implementing algorithms from scratch strengthens understanding of machine learning fundamentals.
 
-* Ridge Regression with different alpha values
-* Comparison against standard Linear Regression
-* Single-feature Ridge Regression
-* Multi-feature Ridge Regression
-* Diabetes dataset experimentation
-* Coefficient shrinkage analysis
-* Prediction comparison
+## Outcome
 
----
+Successfully implemented Ridge Regression using Gradient Descent, compared results with Scikit-Learn, and gained practical experience with optimization techniques and regularized regression models.
 
-## 🎓 Key Learnings
+⭐ Part of my Machine Learning learning journey focused on implementing algorithms from scratch to build a deeper understanding of their mathematical foundations.
 
-* Ridge Regression reduces coefficient magnitude through L2 regularization.
-* Increasing alpha increases regularization strength.
-* Regularization helps reduce overfitting.
-* Matrix algebra plays a major role in implementing machine learning algorithms.
-* Ridge Regression can be implemented manually using NumPy operations.
-* Custom implementations help build a deeper understanding of machine learning mathematics.
 
----
-
-## 🚀 Outcome
-
-Successfully implemented Ridge Regression from scratch using NumPy, compared results with Scikit-Learn, explored the impact of regularization strength, and gained hands-on experience with the mathematical foundations of machine learning algorithms.
-
----
-
-## 📁 File Included
-
-* `Ridge_Regression_from_scratch.ipynb`
-
----
 
 ⭐ This notebook is part of my Machine Learning learning journey, where I implement algorithms both using libraries and from scratch to strengthen conceptual understanding.
