@@ -43,7 +43,36 @@ Understand how a Perceptron learns from misclassified data points and how decisi
 
 ---
 
-### 02. Perceptron Trick Implementation *(Coming Soon)*
+### 02. Perceptron Trick Using Sigmoid Function
+
+**Objective:**
+Understand how the Sigmoid Activation Function can be used to transform the traditional Perceptron into a probability-based classifier and visualize the impact on decision boundaries.
+
+#### Topics Covered
+
+* Sigmoid Activation Function
+* Binary Classification
+* Probability Predictions
+* Decision Boundary Visualization
+* Weight Initialization
+* Bias Initialization
+* Forward Propagation
+* Logistic Function
+* Classification using Sigmoid
+* Comparison with Traditional Perceptron
+* Model Training and Prediction
+
+#### Learning Highlights
+
+* Understanding how the Sigmoid Function works
+* Learning why Sigmoid is used in Logistic Regression
+* Converting linear outputs into probabilities
+* Visualizing classification boundaries
+* Understanding the relationship between Perceptron and Logistic Regression
+* Building intuition for probability-based classification
+* Understanding how activation functions affect model predictions
+* Exploring the foundation of modern classification algorithms
+
 
 ### 03. Sigmoid Function *(Coming Soon)*
 
