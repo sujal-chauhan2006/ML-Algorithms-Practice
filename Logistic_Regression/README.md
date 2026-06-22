@@ -73,14 +73,45 @@ Understand how the Sigmoid Activation Function can be used to transform the trad
 * Understanding how activation functions affect model predictions
 * Exploring the foundation of modern classification algorithms
 
+---
 
-### 03. Sigmoid Function *(Coming Soon)*
+### 03. Logistic Regression Gradient Descent
 
-### 04. Logistic Regression Loss Function *(Coming Soon)*
+**Objective:**
+Understand how Gradient Descent optimizes the parameters of Logistic Regression by minimizing the classification error and improving prediction accuracy through iterative weight updates.
 
-### 05. Derivative of Sigmoid Function *(Coming Soon)*
+#### Topics Covered
 
-### 06. Logistic Regression Gradient Descent *(Coming Soon)*
+* Logistic Regression from Scratch
+* Sigmoid Function
+* Gradient Descent Algorithm
+* Cost Function Optimization
+* Weight Initialization
+* Bias Initialization
+* Learning Rate
+* Forward Propagation
+* Prediction Probabilities
+* Weight and Bias Updates
+* Binary Classification
+* Model Training Process
+* Decision Boundary Visualization
+* Convergence of Gradient Descent
+* Accuracy Evaluation
+* Comparison with Scikit-Learn LogisticRegression
+
+#### Learning Highlights
+
+* Understanding how Logistic Regression learns from data
+* Learning the role of Gradient Descent in optimization
+* Understanding weight and bias updates mathematically
+* Visualizing decision boundary formation
+* Understanding probability-based predictions
+* Building Logistic Regression without relying on machine learning libraries
+* Learning how the Sigmoid Function and Gradient Descent work together
+* Understanding the foundation of optimization in Machine Learning
+* Comparing a custom implementation with Scikit-Learn's implementation
+* Developing intuition for classification model training
+
 
 ---
 
