@@ -112,6 +112,38 @@ Understand how Gradient Descent optimizes the parameters of Logistic Regression 
 * Comparing a custom implementation with Scikit-Learn's implementation
 * Developing intuition for classification model training
 
+---
+
+### 04. ROC Curve and AUC Score
+
+**Objective:**
+Understand how ROC (Receiver Operating Characteristic) Curve and AUC (Area Under the Curve) are used to evaluate the performance of binary classification models across different classification thresholds.
+
+#### Topics Covered
+
+* Binary Classification Evaluation
+* Confusion Matrix
+* True Positive Rate (TPR)
+* False Positive Rate (FPR)
+* ROC Curve
+* Area Under the Curve (AUC)
+* Classification Thresholds
+* Probability Predictions
+* Model Performance Evaluation
+* ROC Curve Visualization
+* AUC Score Calculation
+* Scikit-Learn Metrics
+
+#### Learning Highlights
+
+* Understanding the intuition behind ROC Curves
+* Learning how different thresholds affect model performance
+* Understanding the relationship between TPR and FPR
+* Evaluating classification models using AUC Score
+* Visualizing ROC Curves for model comparison
+* Learning when Accuracy is not a sufficient evaluation metric
+* Comparing classifiers using ROC-AUC
+* Building intuition for evaluating binary classification models
 
 ---
 
@@ -138,6 +170,12 @@ Understand how Gradient Descent optimizes the parameters of Logistic Regression 
 * Machine Learning Intuition
 * Mathematical Foundations of Logistic Regression
 
+* ROC Curve
+* AUC Score
+* True Positive Rate (TPR)
+* False Positive Rate (FPR)
+* Classification Thresholds
+* Model Evaluation Metrics
 ---
 
 ## ▶️ How to Run
@@ -160,14 +198,7 @@ This repository is created for learning and practicing Logistic Regression conce
 ### Completed
 
 * ✅ Perceptron Trick
-
-### In Progress
-
-* ⏳ Perceptron Trick Implementation
-* ⏳ Sigmoid Function
-* ⏳ Logistic Regression Loss Function
-* ⏳ Derivative of Sigmoid Function
-* ⏳ Logistic Regression Gradient Descent
+* ✅ ROC Curve and AUC Score
 
 ---
 
