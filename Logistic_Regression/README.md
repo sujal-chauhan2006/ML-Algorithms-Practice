@@ -146,6 +146,39 @@ Understand how ROC (Receiver Operating Characteristic) Curve and AUC (Area Under
 * Building intuition for evaluating binary classification models
 
 ---
+### 05. Softmax Regression
+
+**Objective:**
+Understand how Softmax Regression extends Logistic Regression to solve multiclass classification problems by predicting the probability distribution across multiple classes and selecting the class with the highest probability.
+
+#### Topics Covered
+
+* Multiclass Classification
+* Softmax Function
+* Probability Distribution
+* One-vs-Rest vs Softmax Regression
+* Prediction Probabilities
+* Cross-Entropy Loss
+* Decision Boundaries
+* Weight Initialization
+* Model Training
+* Probability Visualization
+* Classification using Softmax
+* Scikit-Learn Implementation
+
+#### Learning Highlights
+
+* Understanding how Softmax Regression handles multiclass classification
+* Learning how the Softmax Function converts logits into probabilities
+* Understanding probability distribution across multiple classes
+* Visualizing multiclass decision boundaries
+* Learning the role of Cross-Entropy Loss in optimization
+* Understanding the difference between Logistic Regression and Softmax Regression
+* Building intuition for multiclass prediction problems
+* Comparing Softmax Regression with binary Logistic Regression
+* Developing a strong foundation for advanced deep learning classifiers
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -169,13 +202,17 @@ Understand how ROC (Receiver Operating Characteristic) Curve and AUC (Area Under
 * Classification Fundamentals
 * Machine Learning Intuition
 * Mathematical Foundations of Logistic Regression
-
 * ROC Curve
 * AUC Score
 * True Positive Rate (TPR)
 * False Positive Rate (FPR)
 * Classification Thresholds
 * Model Evaluation Metrics
+* Multiclass Classification
+* Softmax Function
+* Cross-Entropy Loss
+* Probability Distribution
+* Softmax Regression
 ---
 
 ## ▶️ How to Run
@@ -198,7 +235,10 @@ This repository is created for learning and practicing Logistic Regression conce
 ### Completed
 
 * ✅ Perceptron Trick
+* ✅ Perceptron Trick Using Sigmoid Function
+* ✅ Logistic Regression Gradient Descent
 * ✅ ROC Curve and AUC Score
+* ✅ Softmax Regression
 
 ---
 
