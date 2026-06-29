@@ -333,6 +333,42 @@ Understand and implement Polynomial Regression to model non-linear relationships
 * Understanding the bias-variance tradeoff
 * Strengthening regression modeling skills through practical implementation
 
+### 13. K-Nearest Neighbors (KNN) Classification
+
+**Objective:**
+Understand and implement the K-Nearest Neighbors (KNN) algorithm for classification by predicting the class of a data point based on the labels of its nearest neighbors.
+
+#### Topics Covered
+
+* Introduction to K-Nearest Neighbors (KNN)
+* Instance-Based (Lazy) Learning
+* Distance Metrics (Euclidean Distance)
+* Choosing the Value of K
+* Decision Boundary
+* Data Preprocessing
+* Feature Scaling using StandardScaler
+* Train-Test Split
+* Model Training with Scikit-Learn
+* Model Prediction
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+* Hyperparameter Tuning
+* Effect of Different K Values
+* Decision Boundary Visualization
+
+#### Learning Highlights
+
+* Understanding how KNN classifies unseen data points
+* Learning the intuition behind distance-based learning
+* Understanding the importance of feature scaling in KNN
+* Exploring the impact of different K values on model performance
+* Visualizing KNN decision boundaries
+* Evaluating classification models using multiple metrics
+* Strengthening machine learning fundamentals through hands-on implementation
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -382,6 +418,15 @@ Through these notebooks, you will learn:
 * Bias-Variance Tradeoff
 * Underfitting and Overfitting Analysis
 * Model Complexity Control
+* K-Nearest Neighbors (KNN) Classification
+* Distance-Based Machine Learning
+* Euclidean Distance
+* Feature Scaling
+* Classification Model Evaluation
+* Confusion Matrix Interpretation
+* Classification Report Analysis
+* Hyperparameter Tuning
+* Decision Boundary Visualization
 
 ---
 
@@ -401,6 +446,7 @@ Through these notebooks, you will learn:
 * ✅ Stochastic Gradient Descent
 * ✅ Mini-Batch Gradient Descent
 * ✅ Polynomial Regression
+* ✅ K-Nearest Neighbors (KNN) Classification
 
 
 ---
