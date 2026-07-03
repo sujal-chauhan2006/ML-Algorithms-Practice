@@ -1,18 +1,25 @@
-
-# 🌳 Decision Tree Regressor
+# 🌳 Decision Tree
 
 ## 📌 Overview
 
-This repository contains a hands-on implementation of the **Decision Tree Regressor** algorithm using **Scikit-learn**.
+This repository contains hands-on implementations of **Decision Tree Classification, Decision Tree Regression, and Decision Tree Visualization** using **Scikit-learn** and **dtreeviz**.
 
-The notebook demonstrates the complete machine learning workflow, including data preprocessing, model training, prediction, evaluation, and hyperparameter tuning for regression problems.
+The notebooks cover the complete machine learning workflow, including model building, visualization, prediction, evaluation, feature importance, prediction path analysis, and hyperparameter tuning.
 
-The objective of this project is to understand how Decision Tree Regression works and how different parameters affect model performance.
+The goal of this repository is to build a strong understanding of Decision Trees for both **classification** and **regression** problems while learning how to interpret and visualize tree-based models.
 
 ---
 
 ## 📚 Topics Covered
 
+### 🌳 Decision Tree Classification
+- Introduction to Decision Trees
+- Building a Decision Tree Classifier
+- Decision Boundary Visualization
+- Tree Interpretation
+- Prediction Path Analysis
+
+### 🌳 Decision Tree Regression
 - Introduction to Decision Tree Regression
 - Loading and exploring the dataset
 - Data preprocessing
@@ -25,6 +32,17 @@ The objective of this project is to understand how Decision Tree Regression work
 - Hyperparameter tuning using `GridSearchCV`
 - Selecting the best model parameters
 
+### 🎨 Decision Tree Visualization
+- Visualizing Decision Trees using `plot_tree()`
+- Visualizing Decision Trees using **dtreeviz**
+- Horizontal Tree Visualization
+- Prediction Path Visualization
+- Node Label Visualization
+- Plain English Prediction Explanation
+- Feature Importance Visualization
+- Instance Feature Importance
+- 3D Iris Dataset Visualization
+
 ---
 
 ## 🛠️ Libraries Used
@@ -34,10 +52,30 @@ The objective of this project is to understand how Decision Tree Regression work
 - Pandas
 - Matplotlib
 - Scikit-learn
+- dtreeviz
 
 ---
 
-## 📂 Notebook Included
+## 📂 Notebooks Included
+
+### 📘 DecisionTree_vis.ipynb
+
+This notebook demonstrates multiple Decision Tree visualization techniques.
+
+**Topics included:**
+
+- Decision Tree Classification Visualization
+- Decision Tree Regression Visualization
+- Horizontal Tree Layout
+- Prediction Path Visualization
+- Node Labels
+- Prediction Path Only
+- Plain English Prediction Explanation
+- Instance Feature Importance
+- 3D Iris Dataset Visualization
+- Tree Interpretation using dtreeviz
+
+---
 
 ### 📘 Decision_Tree_Regressor_Demo.ipynb
 
@@ -62,44 +100,60 @@ This notebook covers:
 
 ## 🎯 Learning Outcomes
 
-After completing this notebook, you will understand:
+After completing these notebooks, you will understand:
 
+- How Decision Tree Classification works
 - How Decision Tree Regression works
+- How Decision Trees make predictions
+- How to interpret Decision Tree splits
+- How to visualize Decision Trees using dtreeviz
+- How to understand prediction paths
+- How to analyze feature importance
 - The importance of controlling tree depth
 - How Decision Trees can overfit training data
 - How to tune Decision Tree hyperparameters
 - How to evaluate regression models
-- When Decision Tree Regression is suitable for real-world problems
+- When Decision Trees are suitable for real-world problems
 
 ---
 
 ## 🚀 Skills Practiced
 
 - Machine Learning
-- Regression
-- Decision Tree Regressor
+- Decision Tree Classification
+- Decision Tree Regression
 - Data Preprocessing
 - Model Training
 - Model Evaluation
+- Feature Importance
+- Tree Visualization
+- Prediction Path Analysis
 - Hyperparameter Tuning
+- GridSearchCV
 - Scikit-learn
+- dtreeviz
 
 ---
 
 ## 📈 Future Improvements
 
-- Compare Decision Tree Regressor with:
+- Compare Decision Tree with:
+  - Logistic Regression
   - Linear Regression
+  - Random Forest
   - Random Forest Regressor
+  - Gradient Boosting
   - Gradient Boosting Regressor
+  - XGBoost
   - XGBoost Regressor
 - Perform Feature Engineering
-- Visualize the Decision Tree
-- Analyze Feature Importance
 - Apply Cross Validation
+- Explore Ensemble Learning Methods
+- Visualize Larger Decision Trees
+- Build Interactive Tree Visualizations
 
 ---
 
 ## ⭐ Repository Purpose
 
-This project is part of my Machine Learning learning journey where I practice different regression algorithms and build a strong foundation in predictive modeling using Python and Scikit-learn.
+This repository is part of my Machine Learning learning journey where I practice Decision Tree algorithms, visualization techniques, and regression methods to build a strong foundation in predictive modeling and model interpretation using **Python**, **Scikit-learn**, and **dtreeviz**.
