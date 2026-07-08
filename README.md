@@ -369,6 +369,47 @@ Understand and implement the K-Nearest Neighbors (KNN) algorithm for classificat
 
 ---
 
+### 14. Naive Bayes Classification
+
+**Objective:**
+Understand and implement the Naive Bayes algorithm for binary classification by applying Bayes' Theorem to predict class labels based on feature probabilities.
+
+#### Topics Covered
+
+* Introduction to Naive Bayes
+* Bayes' Theorem
+* Prior Probability
+* Likelihood
+* Posterior Probability
+* Conditional Probability
+* Feature Independence Assumption
+* Binary Classification
+* Data Preprocessing
+* Label Encoding
+* One-Hot Encoding
+* Train-Test Split
+* Gaussian Naive Bayes (`GaussianNB`)
+* Model Training
+* Model Prediction
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+* Probability Prediction using `predict_proba()`
+
+#### Learning Highlights
+
+* Understanding the mathematics behind Naive Bayes
+* Learning how Bayes' Theorem is used for classification
+* Understanding the Naive assumption of feature independence
+* Implementing Naive Bayes using Scikit-Learn
+* Performing binary classification on categorical data
+* Applying Label Encoding and One-Hot Encoding for preprocessing
+* Evaluating model performance using multiple classification metrics
+* Predicting class probabilities with `predict_proba()`
+* Building a complete Naive Bayes classification workflow
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -427,6 +468,17 @@ Through these notebooks, you will learn:
 * Classification Report Analysis
 * Hyperparameter Tuning
 * Decision Boundary Visualization
+* Naive Bayes Classification
+* Bayes' Theorem
+* Probabilistic Machine Learning
+* Binary Classification
+* Conditional Probability
+* Prior, Likelihood, and Posterior Probability
+* Gaussian Naive Bayes
+* Label Encoding
+* One-Hot Encoding
+* Classification Metrics
+* Probability Prediction
 
 ---
 
@@ -447,6 +499,7 @@ Through these notebooks, you will learn:
 * ✅ Mini-Batch Gradient Descent
 * ✅ Polynomial Regression
 * ✅ K-Nearest Neighbors (KNN) Classification
+* ✅ Naive Bayes Classification
 
 
 ---
