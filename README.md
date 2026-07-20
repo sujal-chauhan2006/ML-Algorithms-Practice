@@ -410,6 +410,40 @@ Understand and implement the Naive Bayes algorithm for binary classification by 
 
 ---
 
+### 15. Voting Classifier
+
+**Objective:**
+Understand and implement the Voting Classifier ensemble learning algorithm by combining predictions from multiple classification models to improve overall classification performance and robustness.
+
+#### Topics Covered
+
+* Ensemble Learning
+* Voting Classifier
+* Hard Voting
+* Soft Voting
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Tree Classifier
+* Random Forest Classifier
+* Model Training
+* Model Prediction
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+* Cross Validation
+* Model Performance Comparison
+
+#### Learning Highlights
+
+* Understanding how Voting Classifier combines predictions from multiple machine learning models
+* Learning the difference between Hard Voting and Soft Voting
+* Comparing individual classifiers with the ensemble model
+* Evaluating ensemble performance using classification metrics
+* Understanding why ensemble learning improves model robustness
+* Strengthening machine learning knowledge through practical implementation
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python
@@ -479,6 +513,13 @@ Through these notebooks, you will learn:
 * One-Hot Encoding
 * Classification Metrics
 * Probability Prediction
+* Ensemble Learning
+* Voting Classifier
+* Hard Voting
+* Soft Voting
+* Classification Ensemble Methods
+* Model Combination Techniques
+* Ensemble Performance Comparison
 
 ---
 
@@ -500,6 +541,7 @@ Through these notebooks, you will learn:
 * ✅ Polynomial Regression
 * ✅ K-Nearest Neighbors (KNN) Classification
 * ✅ Naive Bayes Classification
+* ✅ Voting Classifier
 
 
 ---
